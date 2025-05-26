@@ -1,20 +1,20 @@
 nav {
-    background-color: darkblue;
+    background-color: rgba(189, 147, 31, 0.438);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    color: rgb(rgb(0, 102, 255));
     display: block;
-    padding: 20px;
+    padding: 10;
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(0, 25, 139);
 }
 
 img {
-    width: 150px;
+    width: 1000px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -22,5 +22,5 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 25px;
 }
