@@ -3,7 +3,7 @@
     margin: 10px;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 15px;
-    background-color: #247;
+    background-color: rgb(34, 119, 41);
     color: #fff;
 }
 
@@ -19,7 +19,7 @@
 }
 
 blockquote {
-    margin: 0;
+    margin: 5;
 }
 
 cite {
