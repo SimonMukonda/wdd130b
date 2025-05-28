@@ -15,11 +15,11 @@ nav {
 
 
 .callout {
-    max-width: 100%;
+    max-width: 100;
     margin: 100px;
     border: 15px solid rgba(0, 0, 0, .1);
-    /* padding: 1px; */
-    background-color: rgb(14, 46, 63);
+    padding: 1px; 
+    background-color: rgb(38, 14, 63);
     color: #fff;
 }
 
@@ -33,7 +33,10 @@ nav {
 
 }
 
-
+div {
+    display: grid;
+    grid-template-columns: 10px 1p0x 10px;
+}
 
 .grid {
     display: grid;
@@ -112,6 +115,87 @@ p {
     color: #fff; /% shorthand for white %/ 
 } */
 
+/* body {
+	font-family: acme, sans-serif;
+}
+
+.flex-container {
+	border: 3px dashed darkcyan;
+	background-color: lightyellow;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.flex-item {
+	width: 250px;
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / 20%);
+	padding: 0.5rem;
+	background-color: #535544;
+	color: #4e272700;
+}
+
+.item1 {
+	min-height: 100px;
+
+}
+.item2 {
+	min-height: 200px;
+}
+.item3 {
+	min-height: 300px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+	font-family: "Sansita", sans-serif;
+} */
+
+nav {
+	background-color: #6189a3;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 900px;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/* nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+} */
+
+p {
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / 10%);
+	padding: 1rem;
+	background-color: rgb(195, 187, 238);
+	max-width: 1500px;
+}
+
+
+
 footer {
     background-color: steelblue;
     padding: 1em;
@@ -122,3 +206,4 @@ footer {
     font-weight: 300;
     color: yellow;/% shorthand for white %/
 }
+

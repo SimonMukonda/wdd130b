@@ -56,7 +56,31 @@ aside{
     box-sizing: border-box;
 }
 
+body {flex}
 
+.flex-container {
+    border: 3px dashed darkcyan;
+    background-color: lightblue;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+.flex-item {
+
+    width: 250px;
+    margin: 1rem;
+    border: 1px solid rgb(red, green, blue, alpha);
+    padding: 0.5rem;
+    background-color: #1f4384;
+    color: 333;
+}
+
+.item1 {
+    min-height: 100px;
+}
 
 
 
