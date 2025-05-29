@@ -56,7 +56,11 @@ aside{
     box-sizing: border-box;
 }
 
-body {flex}
+/* body {flex} */
+
+body { 
+	font-family: acme, sans-serif;
+}
 
 .flex-container {
     border: 3px dashed darkcyan;
